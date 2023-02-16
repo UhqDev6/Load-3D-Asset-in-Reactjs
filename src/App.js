@@ -53,6 +53,9 @@ function App() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="container">
+      <div>
+        <h2>3D ASSETS</h2>
+      </div>
       <div className="preview">
         <Canvas>
           <ambientLight intensity={0.8} />
