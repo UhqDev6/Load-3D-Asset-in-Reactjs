@@ -4,7 +4,7 @@ name: Continuous Integration
 on:
   pull_request:
     branches:
-      - main
+      - master
 
 # jobs is a property that defines action steps. One GitHub action can consist of multiple actions.
 # In this case, we only define one job, namely job-test-automation. Within the job, we define the workflow,
